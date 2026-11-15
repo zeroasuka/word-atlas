@@ -123,6 +123,16 @@ npm run build        # 構建到 dist/
 
 子路徑部署：`ATLAS_BASE=/word-atlas/ npm run build`。完整說明見 [部署文件](docs/deployment.md)。
 
+### Docker 部署
+
+需要 Docker Engine 與 Docker Compose v2。在專案根目錄執行：
+
+```bash
+docker compose up -d --build
+```
+
+預設會在 `8088` 埠提供網站；詳細設定及 FNOS 部署方式請參閱[部署文件](docs/deployment.md)。
+
 **技術棧**：React 19 · TypeScript · Vite · ts-fsrs · WebGL2
 
 ## 開放資料

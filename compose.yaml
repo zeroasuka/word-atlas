@@ -1,0 +1,23 @@
+services:
+  word-atlas:
+    build:
+      context: .
+      args:
+        ATLAS_BASE: /
+    image: word-atlas:2026-11-15
+    container_name: word-atlas
+    ports:
+      - "${WORD_ATLAS_PORT:-8088}:8080"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
