@@ -1,21 +1,21 @@
 <div align="center">
 
-<a href="https://0xlei.tech/words/"><img src="docs/assets/cover-v2.jpg" alt="词光 · Word Atlas — an illustrated world of words" width="100%"></a>
+<a href="https://zeroasuka.github.io/word-atlas/"><img src="docs/assets/cover-v2.jpg" alt="詞光 · Word Atlas — an illustrated world of words" width="100%"></a>
 
-# Word Atlas · 词光
+# Word Atlas · 詞光
 
 **See the word. Hear it. Make it yours.**
 
 7,298 IELTS words · Original illustrations · UK & US audio · Spaced repetition
 
-[**Try Word Atlas ↗**](https://0xlei.tech/words/)　 /　 [48-second film](docs/assets/launch.mp4)　 /　 [Get the dataset](data/)　 /　 [简体中文](README.md)
+[**Try Word Atlas ↗**](https://zeroasuka.github.io/word-atlas/)　 /　 [Product walkthrough](docs/assets/launch.mp4)　 /　 [Get the dataset](data/)　 /　 [繁體中文](README.md)
 
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-17283B?style=flat-square)](LICENSE)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/Dataset-CC_BY_4.0-AD5038?style=flat-square)](CONTENT_LICENSE.md)
 
 <br>
 
-**The Word Atlas iOS app (词光) is now on the App Store, free: [Download on the App Store](https://apps.apple.com/app/id6827459612)**
+**The Word Atlas iOS app (詞光) is now on the App Store, free: [Download on the App Store](https://apps.apple.com/app/id6827459612)**
 
 [![Follow @yangleiocx3](https://img.shields.io/badge/Follow_me-@yangleiocx3-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yangleiocx3)
 
@@ -52,11 +52,11 @@ Word Atlas is an illustrated IELTS vocabulary app for Chinese-speaking learners.
 Explore 19 topic groups, rotate and zoom the galaxy, and select a star to open its word card. Brightness reflects learning status. Built with WebGL2, with a fallback for unsupported devices.
 
 <details>
-<summary><b>Watch the 48-second introduction</b></summary>
+<summary><b>Watch the product walkthrough</b></summary>
 
 <a href="docs/assets/launch.mp4"><img src="docs/assets/launch-preview.webp" alt="Watch the Word Atlas introduction" width="100%"></a>
 
-[Play the full film with sound](docs/assets/launch.mp4)
+[Play the product walkthrough](docs/assets/launch.mp4)
 
 </details>
 
@@ -79,7 +79,7 @@ Listen to a sample: **abandon** — [UK](public/atlas/audio/uk/abandon.mp3) · [
 Requires **Node.js 20+** and npm. This repository includes the full image and audio collection, so the initial download can take time.
 
 ```bash
-git clone --depth 1 https://github.com/designfuchen/word-atlas.git
+git clone --depth 1 https://github.com/zeroasuka/word-atlas.git
 cd word-atlas
 npm ci
 npm run dev
@@ -93,7 +93,7 @@ npm run check:atlas  # Dataset and media validation
 npm run build        # Production build in dist/
 ```
 
-For a subpath deployment: `ATLAS_BASE=/words/ npm run build`. See the [deployment guide](docs/deployment.md).
+For a subpath deployment: `ATLAS_BASE=/word-atlas/ npm run build`. See the [deployment guide](docs/deployment.md).
 
 **Stack:** React 19 · TypeScript · Vite · ts-fsrs · WebGL2
 
@@ -126,7 +126,7 @@ Text and illustrations were generated for this project using AI; speech was synt
 
 Please include the **word ID, reproduction steps and expected result** when reporting a problem. For vocabulary corrections, reliable dictionary references are welcome.
 
-- [Report an issue](https://github.com/designfuchen/word-atlas/issues/new/choose)
+- [Report an issue](https://github.com/zeroasuka/word-atlas/issues/new/choose)
 - [Contribution guide](CONTRIBUTING.md)
 - [Security policy](SECURITY.md)
 
@@ -135,7 +135,7 @@ Please include the **word ID, reproduction steps and expected result** when repo
 | Scope | License |
 | :--- | :--- |
 | Application code | [MIT](LICENSE) |
-| Vocabulary text, illustrations and word recordings | [CC BY 4.0](CONTENT_LICENSE.md); credit “Word Atlas contributors（词光）” |
+| Vocabulary text, illustrations and word recordings | [CC BY 4.0](CONTENT_LICENSE.md); credit “Word Atlas contributors（詞光）” |
 | Dependencies and fonts | Their respective licenses |
 
 ---
