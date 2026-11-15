@@ -1,140 +1,150 @@
 <div align="center">
 
-<a href="https://0xlei.tech/words/"><img src="docs/assets/cover-v2.jpg" alt="词光 Word Atlas — 一词一画，点亮雅思" width="100%"></a>
+<a href="https://zeroasuka.github.io/word-atlas/"><img src="docs/assets/cover-v2.jpg" alt="詞光 Word Atlas — 一詞一畫，點亮雅思" width="100%"></a>
 
-# 词光 · Word Atlas
+# 詞光 · Word Atlas
 
-**把单词变成画面，让复习有迹可循。**
+**把單詞變成畫面，讓複習有跡可循。**
 
-7,298 个雅思词条 · 原创插画 · 英美发音 · FSRS 间隔复习
+7,298 個雅思詞條 · 原創插畫 · 英美髮音 · FSRS 間隔複習
 
-[**立即体验 ↗**](https://0xlei.tech/words/)　 /　 [48 秒介绍](docs/assets/launch.mp4)　 /　 [下载词库](data/)　 /　 [English](README.en.md)
+[**立即體驗 ↗**](https://zeroasuka.github.io/word-atlas/)　 /　 [產品導覽](docs/assets/launch.mp4)　 /　 [下載詞庫](data/)　 /　 [English](README.en.md)
 
 [![Code: MIT](https://img.shields.io/badge/Code-MIT-17283B?style=flat-square)](LICENSE)
 [![Dataset: CC BY 4.0](https://img.shields.io/badge/Dataset-CC_BY_4.0-AD5038?style=flat-square)](CONTENT_LICENSE.md)
 
 <br>
 
-**词光 iOS App 已在 App Store 上架，免费下载：[App Store · 搜索「词光」](https://apps.apple.com/app/id6827459612)**
+**詞光 iOS App 已在 App Store 上架，免費下載：[App Store · 搜尋「詞光」](https://apps.apple.com/app/id6827459612)**
 
-[![关注 @yangleiocx3](https://img.shields.io/badge/%E5%85%B3%E6%B3%A8%E6%88%91-@yangleiocx3-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yangleiocx3)
+[![關注 @yangleiocx3](https://img.shields.io/badge/%E9%97%9C%E6%B3%A8%E6%88%91-@yangleiocx3-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/yangleiocx3)
 
 </div>
 
 ---
 
-词光是一款以插画和语境为核心的雅思背词应用。看画面理解词义，听发音建立联系，再用主动回忆和间隔复习巩固记忆。无需账号，学习进度保存在自己的设备上。
+詞光是一款以插畫和語境為核心的雅思背詞應用。看畫面理解詞義，聽發音建立聯絡，再用主動回憶和間隔複習鞏固記憶。無需賬號，學習進度儲存在自己的裝置上。
 
-> **版本说明**：这个仓库提供词光的开源基础版及配套数据集。在线网站独立迭代，功能与仓库可能不同；仓库里的代码和内容分别遵循下方的 MIT / CC BY 4.0 授权。
+> **版本說明**：這個倉庫提供詞光的開源基礎版及配套資料集。線上網站獨立迭代，功能與倉庫可能不同；倉庫裡的程式碼和內容分別遵循下方的 MIT / CC BY 4.0 授權。
 
-[产品预览](#产品预览) · [学习方式](#学习方式) · [本地运行](#本地运行) · [开放数据](#开放数据) · [参与贡献](#参与贡献)
+[產品預覽](#產品預覽) · [學習方式](#學習方式) · [本地執行](#本地執行) · [開放資料](#開放資料) · [參與貢獻](#參與貢獻)
 
-## 产品预览
+## 產品預覽
 
-### 一本可以听、可以练的单词图鉴
+### 一本可以聽、可以練的單詞圖鑑
 
-<img src="docs/assets/atlas-desktop.jpg" alt="开源版桌面图鉴：插画词卡和词汇浏览" width="100%">
+<img src="docs/assets/atlas-desktop.jpg" alt="開源版桌面圖鑑：插畫詞卡和詞彙瀏覽" width="100%">
 
 <table>
 <tr>
-<td width="50%"><img src="docs/assets/today-mobile.jpg" alt="手机端今日学习页" width="100%"></td>
-<td width="50%"><img src="docs/assets/word-mobile.jpg" alt="手机端词卡，展示插画、英美发音与例句" width="100%"></td>
+<td width="50%"><img src="docs/assets/today-mobile.jpg" alt="手機端今日學習頁" width="100%"></td>
+<td width="50%"><img src="docs/assets/word-mobile.jpg" alt="手機端詞卡，展示插畫、英美髮音與例句" width="100%"></td>
 </tr>
-<tr><td align="center">每日计划，把注意力放在今天</td><td align="center">插画、词义、发音，在一张词卡里</td></tr>
+<tr><td align="center">每日計劃，把注意力放在今天</td><td align="center">插畫、詞義、發音，在一張詞卡里</td></tr>
 </table>
 
-<sub>以上为仓库开源版的实际界面。页首为品牌概念插画。</sub>
+<sub>以上為倉庫開源版的實際介面。頁首為品牌概念插畫。</sub>
 
-### 学过的词，汇成自己的星图
+### 學過的詞，匯成自己的星圖
 
-<img src="docs/assets/galaxy.jpg" alt="词汇星图界面：按话题组织单词，展示学习进度" width="100%">
+<img src="docs/assets/galaxy.jpg" alt="詞彙星圖介面：按話題組織單詞，展示學習進度" width="100%">
 
-19 个话题组成词汇星图。拖动旋转、滚动缩放，点击星星打开词卡；学习状态用不同亮度呈现。采用 WebGL2 渲染，不支持的设备提供降级显示。
+19 個話題組成詞彙星圖。拖動旋轉、滾動縮放，點選星星開啟詞卡；學習狀態用不同亮度呈現。採用 WebGL2 渲染，不支援的裝置提供降級顯示。
 
 <details>
-<summary><b>看 48 秒宣传片</b></summary>
+<summary><b>看產品導覽影片</b></summary>
 
-<a href="docs/assets/launch.mp4"><img src="docs/assets/launch-preview.webp" alt="点击观看词光宣传片" width="100%"></a>
+<a href="docs/assets/launch.mp4"><img src="docs/assets/launch-preview.webp" alt="點選觀看詞光宣傳片" width="100%"></a>
 
-[播放完整视频（含声音）](docs/assets/launch.mp4)
+[播放產品導覽影片](docs/assets/launch.mp4)
 
 </details>
 
-## 学习方式
+## 學習方式
 
-| 环节 | 你会做什么 |
+| 環節 | 你會做什麼 |
 | :--- | :--- |
-| **看见** | 每个词配一幅插画、中英释义、两条原创例句，以及搭配、词族和用法提示。 |
-| **听见** | 切换英音、美音，听日常例句朗读；部分词条另含第二条例句录音。 |
-| **想起** | 看义选词、看图补句、听音辨词、拼写，逐步练习主动回忆。 |
-| **复习** | FSRS 根据学习记录安排复习，目标记忆率可调。只有首次作答计入正确率。 |
-| **积累** | 星图展示学习进度；打字练习独立统计；支持导出和恢复本地进度。 |
+| **看見** | 每個詞配一幅插畫、中英釋義、兩條原創例句，以及搭配、詞族和用法提示。 |
+| **聽見** | 切換英音、美音，聽日常例句朗讀；部分詞條另含第二條例句錄音。 |
+| **想起** | 看義選詞、看圖補句、聽音辨詞、拼寫，逐步練習主動回憶。 |
+| **複習** | FSRS 根據學習記錄安排複習，目標記憶率可調。只有首次作答計入正確率。 |
+| **積累** | 星圖展示學習進度；打字練習獨立統計；支援匯出和恢復本地進度。 |
 
-**本地优先。** 无需注册；看过的词条与媒体可缓存供离线使用。换设备前，请先导出进度备份。
+**本地優先。** 無需註冊；看過的詞條與媒體可快取供離線使用。換裝置前，請先匯出進度備份。
 
 <details>
-<summary><b>听发音、例句与环境声样本</b></summary>
+<summary><b>聽發音、例句與環境聲樣本</b></summary>
 
 
 
-拿 *abandon* 举例，点开就能听（在线播放）：
-
-| | |
-|---|---|
-| 🇬🇧 英音 | [abandon /əˈbændən/](https://0xlei.tech/words/atlas/audio/uk/abandon.mp3) |
-| 🇺🇸 美音 | [abandon /əˈbændən/](https://0xlei.tech/words/atlas/audio/us/abandon.mp3) |
-| 📖 例句朗读 | [We had to abandon our car in the snow.](https://0xlei.tech/words/atlas/audio/ex/abandon.mp3) |
-
-全部 7,298 个词都有英音、美音和例句朗读，还有 1,011 个重点词的第二条例句也配了朗读。
-
-### 环境声与交互声音
+拿 *abandon* 舉例，點開就能聽（線上播放）：
 
 | | |
 |---|---|
-| 🎙 **开屏配音** | [「欢迎打开雅思大门」](https://0xlei.tech/words/sfx/splash-voice.mp3)：星尘汇聚成“词光”，大门打开 |
-| 🌌 **星图配音** | [「这是你的词汇星图。每学会一个词，就点亮一颗星。」](https://0xlei.tech/words/sfx/voice-galaxy-hello.mp3) |
-| 🎵 **星空音乐** | [一段可无缝循环的原创配乐](https://0xlei.tech/words/sfx/amb-stars.mp3)，默认陪你背词 |
-| 🌧 **6 段环境声** | [雨天图书馆](https://0xlei.tech/words/sfx/amb-rain.mp3) · [清晨海岸](https://0xlei.tech/words/sfx/amb-sea.mp3) · [林间早晨](https://0xlei.tech/words/sfx/amb-forest.mp3) · [夜晚壁炉](https://0xlei.tech/words/sfx/amb-fire.mp3) · [远航船舱](https://0xlei.tech/words/sfx/amb-voyage.mp3) · [安静咖啡馆](https://0xlei.tech/words/sfx/amb-cafe.mp3) |
-| ✨ **界面音效** | 答对、答错、翻卡、打字、连胜、点亮星星……每个操作都有自己的声音；读单词时背景音会自动压低 |
+| 🇬🇧 英音 | [abandon /əˈbændən/](https://zeroasuka.github.io/word-atlas/atlas/audio/uk/abandon.mp3) |
+| 🇺🇸 美音 | [abandon /əˈbændən/](https://zeroasuka.github.io/word-atlas/atlas/audio/us/abandon.mp3) |
+| 📖 例句朗讀 | [We had to abandon our car in the snow.](https://zeroasuka.github.io/word-atlas/atlas/audio/ex/abandon.mp3) |
 
-全部素材都在仓库里：插画在 `public/atlas/img/`，录音在 `public/atlas/audio/`，这两类按 CC BY 4.0 开放；界面声音和配乐在 `public/sfx/`，随应用一起提供。
+全部 7,298 個詞都有英音、美音和例句朗讀，還有 1,011 個重點詞的第二條例句也配了朗讀。
+
+### 環境聲與互動聲音
+
+| | |
+|---|---|
+| 🎙 **開屏配音** | [「歡迎開啟雅思大門」](https://zeroasuka.github.io/word-atlas/sfx/splash-voice.mp3)：星塵匯聚成“詞光”，大門開啟 |
+| 🌌 **星圖配音** | [「這是你的詞彙星圖。每學會一個詞，就點亮一顆星。」](https://zeroasuka.github.io/word-atlas/sfx/voice-galaxy-hello.mp3) |
+| 🎵 **星空音樂** | [一段可無縫迴圈的原創配樂](https://zeroasuka.github.io/word-atlas/sfx/amb-stars.mp3)，預設陪你背詞 |
+| 🌧 **6 段環境聲** | [雨天圖書館](https://zeroasuka.github.io/word-atlas/sfx/amb-rain.mp3) · [清晨海岸](https://zeroasuka.github.io/word-atlas/sfx/amb-sea.mp3) · [林間早晨](https://zeroasuka.github.io/word-atlas/sfx/amb-forest.mp3) · [夜晚壁爐](https://zeroasuka.github.io/word-atlas/sfx/amb-fire.mp3) · [遠航船艙](https://zeroasuka.github.io/word-atlas/sfx/amb-voyage.mp3) · [安靜咖啡館](https://zeroasuka.github.io/word-atlas/sfx/amb-cafe.mp3) |
+| ✨ **介面音效** | 答對、答錯、翻卡、打字、連勝、點亮星星……每個操作都有自己的聲音；讀單詞時背景音會自動壓低 |
+
+全部素材都在倉庫裡：插畫在 `public/atlas/img/`，錄音在 `public/atlas/audio/`，這兩類按 CC BY 4.0 開放；介面聲音和配樂在 `public/sfx/`，隨應用一起提供。
 
 
 </details>
 
-## 本地运行
+## 本地執行
 
-需要 **Node.js 20+** 和 npm。仓库含完整图片与录音，首次下载可能较久。
+需要 **Node.js 20+** 和 npm。倉庫含完整圖片與錄音，首次下載可能較久。
 
 ```bash
-git clone --depth 1 https://github.com/designfuchen/word-atlas.git
+git clone --depth 1 https://github.com/zeroasuka/word-atlas.git
 cd word-atlas
 npm ci
 npm run dev
 ```
 
-打开 **http://localhost:5188**。
+開啟 **http://localhost:5188**。
 
 ```bash
-npm test             # 单元测试
-npm run check:atlas  # 词库结构与媒体校验
-npm run build        # 构建到 dist/
+npm test             # 單元測試
+npm run check:atlas  # 詞庫結構與媒體校驗
+npm run build        # 構建到 dist/
 ```
 
-子路径部署：`ATLAS_BASE=/words/ npm run build`。完整说明见 [部署文档](docs/deployment.md)。
+子路徑部署：`ATLAS_BASE=/word-atlas/ npm run build`。完整說明見 [部署文件](docs/deployment.md)。
 
-**技术栈**：React 19 · TypeScript · Vite · ts-fsrs · WebGL2
+### Docker 部署
 
-## 开放数据
+需要 Docker Engine 與 Docker Compose v2。在專案根目錄執行：
 
-不仅可以直接使用应用，也可以把词库用于自己的学习工具、Anki 牌组或研究项目。
+```bash
+docker compose up -d --build
+```
 
-| 资源 | 开源版内容 | 入口 |
+預設會在 `8088` 埠提供網站；詳細設定及 FNOS 部署方式請參閱[部署文件](docs/deployment.md)。
+
+**技術棧**：React 19 · TypeScript · Vite · ts-fsrs · WebGL2
+
+## 開放資料
+
+不僅可以直接使用應用，也可以把詞庫用於自己的學習工具、Anki 牌組或研究專案。
+
+| 資源 | 開源版內容 | 入口 |
 | :--- | :--- | :--- |
-| 词条 | **7,298** 条，CEFR A1–C2、19 个话题 | [JSON](data/word-atlas.json) · [CSV](data/word-atlas.csv) |
-| 例句 | **14,596** 条，日常与雅思语境，附中文翻译 | [字段说明](docs/dataset.md) |
-| 插画 | **7,298** 幅，512 px WebP，另有缩略图 | [图片目录](public/atlas/img/) |
-| 录音 | **22,905** 段，英音、美音与例句朗读 | [音频目录](public/atlas/audio/) |
+| 詞條 | **7,298** 條，CEFR A1–C2、19 個話題 | [JSON](data/word-atlas.json) · [CSV](data/word-atlas.csv) |
+| 例句 | **14,596** 條，日常與雅思語境，附中文翻譯 | [欄位說明](docs/dataset.md) |
+| 插畫 | **7,298** 幅，512 px WebP，另有縮圖 | [圖片目錄](public/atlas/img/) |
+| 錄音 | **22,905** 段，英音、美音與例句朗讀 | [音訊目錄](public/atlas/audio/) |
 
 ```python
 import json
@@ -145,7 +155,7 @@ b2_environment = [w for w in words if w["cefr"] == "B2" and w["topic"] == "envir
 ```
 
 <details>
-<summary><b>查看一条词条的数据结构</b></summary>
+<summary><b>檢視一條詞條的資料結構</b></summary>
 
 ```json
 {
@@ -153,14 +163,14 @@ b2_environment = [w for w in words if w["cefr"] == "B2" and w["topic"] == "envir
   "w": "principle",
   "uk": "/ˈprɪnsəpəl/",
   "us": "/ˈprɪnsəpəl/",
-  "senses": [{ "pos": "n.", "zh": "原则；行为准则", "en": "A belief or rule that guides decisions and behaviour." }],
+  "senses": [{ "pos": "n.", "zh": "原則；行為準則", "en": "A belief or rule that guides decisions and behaviour." }],
   "ex": [
-    { "en": "I refused the extra money as a matter of principle.", "zh": "出于原则，我拒绝了那笔额外的钱。" },
+    { "en": "I refused the extra money as a matter of principle.", "zh": "出於原則，我拒絕了那筆額外的錢。" },
     { "en": "The principle of equal opportunity should guide policies designed to improve access to higher education.", "zh": "…" }
   ],
-  "col": ["in principle｜原则上", "basic principle｜基本原则"],
+  "col": ["in principle｜原則上", "basic principle｜基本原則"],
   "fam": ["principled (adj.)"],
-  "tip": "principle 是原则；principal 是校长、主要的。",
+  "tip": "principle 是原則；principal 是校長、主要的。",
   "cefr": "B2",
   "topic": "thinking"
 }
@@ -168,30 +178,30 @@ b2_environment = [w for w in words if w["cefr"] == "B2" and w["topic"] == "envir
 
 </details>
 
-### 内容来源与局限
+### 內容來源與侷限
 
-释义、例句、插画和录音为本项目生成：文字与插画使用生成式 AI，语音使用 ElevenLabs。内容经过自动结构与一致性校验，**尚未逐条人工审校**，可能出现释义、例句、插画或发音错误。它不是官方雅思词表，也不承诺提分。
+釋義、例句、插畫和錄音為本專案生成：文字與插畫使用生成式 AI，語音使用 ElevenLabs。內容經過自動結構與一致性校驗，**尚未逐條人工審校**，可能出現釋義、例句、插畫或發音錯誤。它不是官方雅思詞表，也不承諾提分。
 
-[内容生成流程](docs/pipeline.md) · [记忆模型](docs/learning-model.md) · [生成脚本](scripts/atlas/)
+[內容生成流程](docs/pipeline.md) · [記憶模型](docs/learning-model.md) · [生成指令碼](scripts/atlas/)
 
-## 参与贡献
+## 參與貢獻
 
-发现问题时，请附上**词条 ID、复现步骤和预期结果**。内容纠错如有词典或其他可靠依据，也请一并提供。
+發現問題時，請附上**詞條 ID、復現步驟和預期結果**。內容糾錯如有詞典或其他可靠依據，也請一併提供。
 
-- [报告问题](https://github.com/designfuchen/word-atlas/issues/new/choose)：词条纠错、界面问题或使用建议。
-- [贡献指南](CONTRIBUTING.md)：数据同步、代码规范和提交前检查。
-- [安全政策](SECURITY.md)：安全问题的反馈方式。
+- [報告問題](https://github.com/zeroasuka/word-atlas/issues/new/choose)：詞條糾錯、介面問題或使用建議。
+- [貢獻指南](CONTRIBUTING.md)：資料同步、程式碼規範和提交前檢查。
+- [安全政策](SECURITY.md)：安全問題的反饋方式。
 
-## 授权
+## 授權
 
-| 范围 | 许可 |
+| 範圍 | 許可 |
 | :--- | :--- |
-| 应用代码 | [MIT](LICENSE) |
-| 词库文本、插画与词条录音 | [CC BY 4.0](CONTENT_LICENSE.md)，署名 Word Atlas contributors（词光） |
-| 第三方依赖与字体 | 遵循各自许可，详见相应文件 |
+| 應用程式碼 | [MIT](LICENSE) |
+| 詞庫文本、插畫與詞條錄音 | [CC BY 4.0](CONTENT_LICENSE.md)，署名 Word Atlas contributors（詞光） |
+| 第三方依賴與字型 | 遵循各自許可，詳見相應檔案 |
 
 ---
 
-由 [@designfuchen](https://github.com/designfuchen) 制作。产品进展与制作过程见 [X · @yangleiocx3](https://x.com/yangleiocx3)。
+由 [@designfuchen](https://github.com/designfuchen) 製作。產品進展與製作過程見 [X · @yangleiocx3](https://x.com/yangleiocx3)。
 
-如果词光对你有用，欢迎 Star，或把它分享给正在学英语的朋友。
+如果詞光對你有用，歡迎 Star，或把它分享給正在學英語的朋友。

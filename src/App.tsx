@@ -24,8 +24,8 @@ import { Toasts } from "./ui/Toast";
 
 const NAV: { page: Route["page"]; label: string; icon: typeof Compass }[] = [
   { page: "today", label: "今日", icon: Compass },
-  { page: "atlas", label: "图鉴", icon: BookOpen },
-  { page: "practice", label: "练习", icon: Keyboard },
+  { page: "atlas", label: "圖鑑", icon: BookOpen },
+  { page: "practice", label: "練習", icon: Keyboard },
   { page: "me", label: "我的", icon: User },
 ];
 
@@ -73,7 +73,7 @@ export default function App() {
         <Logo />
         <p>{error}</p>
         <button className="btn btn-primary" onClick={() => location.reload()}>
-          重新加载
+          重新載入
         </button>
       </div>
     );
@@ -125,10 +125,10 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
     <div className={`app ${focus ? "is-focus" : ""}`}>
       {!focus && (
         <header className="topbar">
-          <a className="topbar-logo" href="#/" aria-label="词光 Word Atlas 首页">
+          <a className="topbar-logo" href="#/" aria-label="詞光 Word Atlas 首頁">
             <Logo />
           </a>
-          <nav className="topnav" aria-label="主导航">
+          <nav className="topnav" aria-label="主導航">
             {NAV.map(({ page, label }) => (
               <a key={page} href={page === "today" ? "#/" : `#/${page}`} className={route.page === page ? "is-on" : ""} aria-current={route.page === page ? "page" : undefined}>
                 {label}
@@ -136,16 +136,16 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
             ))}
           </nav>
           <div className="topbar-tools">
-            <button className="search-pill" onClick={() => setPalette(true)} aria-label="搜索单词">
+            <button className="search-pill" onClick={() => setPalette(true)} aria-label="搜尋單詞">
               <Search size={17} />
-              <span>搜索单词</span>
+              <span>搜尋單詞</span>
               <kbd>⌘K</kbd>
             </button>
             <AmbiencePicker />
-            <button className="icon-btn" onClick={() => store.settings({ theme: dark ? "light" : "dark" })} aria-label={dark ? "切换到浅色" : "切换到深色"}>
+            <button className="icon-btn" onClick={() => store.settings({ theme: dark ? "light" : "dark" })} aria-label={dark ? "切換到淺色" : "切換到深色"}>
               {dark ? <Sun size={19} /> : <Moon size={19} />}
             </button>
-            <a className="icon-btn hide-sm" href="#/about" aria-label="关于与开源" title="关于与开源">
+            <a className="icon-btn hide-sm" href="#/about" aria-label="關於與開源" title="關於與開源">
               <Github size={19} />
             </a>
           </div>
@@ -165,17 +165,17 @@ function Shell({ privateAvailable }: { privateAvailable: boolean }) {
         <footer className="footer">
           <Logo compact />
           <p>
-            一词一画，点亮雅思 · 免费开源 ·{" "}
+            一詞一畫，點亮雅思 · 免費開源 ·{" "}
             <a href={REPO_URL} target="_blank" rel="noreferrer">
               GitHub
             </a>{" "}
-            · <a href="#/about">关于</a>
+            · <a href="#/about">關於</a>
           </p>
         </footer>
       )}
 
       {!focus && (
-        <nav className="tabbar" aria-label="主导航">
+        <nav className="tabbar" aria-label="主導航">
           {NAV.map(({ page, label, icon: Icon }) => (
             <a key={page} href={page === "today" ? "#/" : `#/${page}`} className={route.page === page ? "is-on" : ""} aria-current={route.page === page ? "page" : undefined}>
               <Icon size={22} strokeWidth={route.page === page ? 2.1 : 1.7} />
@@ -222,7 +222,7 @@ function WordSheet({ id }: { id: string | null }) {
     return () => window.removeEventListener("keydown", on);
   }, [id, neighbor]);
   return (
-    <Sheet open={!!id} onClose={closeWord} label={ref ? `${ref.word} 词条` : "词条"} wide>
+    <Sheet open={!!id} onClose={closeWord} label={ref ? `${ref.word} 詞條` : "詞條"} wide>
       {entry ? (
         <EntryView key={entry.id} entry={entry} />
       ) : error ? (
@@ -231,14 +231,14 @@ function WordSheet({ id }: { id: string | null }) {
         <span className="spinner" />
       )}
       {ref && (
-        <nav className="sheet-nav" aria-label="切换词条">
-          <button className="icon-btn" onClick={() => neighbor(-1)} disabled={ref.order === 0} aria-label="上一个">
+        <nav className="sheet-nav" aria-label="切換詞條">
+          <button className="icon-btn" onClick={() => neighbor(-1)} disabled={ref.order === 0} aria-label="上一個">
             <ChevronLeft size={20} />
           </button>
           <span>
             {(ref.order + 1).toLocaleString()} / {atlas.count.toLocaleString()}
           </span>
-          <button className="icon-btn" onClick={() => neighbor(1)} disabled={ref.order >= atlas.count - 1} aria-label="下一个">
+          <button className="icon-btn" onClick={() => neighbor(1)} disabled={ref.order >= atlas.count - 1} aria-label="下一個">
             <ChevronRight size={20} />
           </button>
         </nav>

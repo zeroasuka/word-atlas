@@ -1,26 +1,26 @@
-# 参与贡献 / Contributing
+# 參與貢獻 / Contributing
 
-谢谢你愿意让词光变得更好。
+謝謝你願意讓詞光變得更好。
 
-## 修正词条
+## 修正詞條
 
-最有价值的贡献是纠错。请在 Issue 中写明词条 `id`、问题和建议的改法，或直接提交 PR：
+最有價值的貢獻是糾錯。請在 Issue 中寫明詞條 `id`、問題和建議的改法，或直接提交 PR：
 
-1. 修改 `.local` 之外的源数据前，请先看 [docs/pipeline.md](docs/pipeline.md)。小修正可以直接改 `data/word-atlas.json` 与 `public/atlas/entries/` 中对应的条目，保持两处一致。
-2. 运行 `npm run check:atlas` 和 `npm test`。
-3. 在 PR 里说明修改理由，必要时附权威词典链接。
+1. 修改 `.local` 之外的源資料前，請先看 [docs/pipeline.md](docs/pipeline.md)。小修正可以直接改 `data/word-atlas.json` 與 `public/atlas/entries/` 中對應的條目，保持兩處一致。
+2. 執行 `npm run check:atlas` 和 `npm test`。
+3. 在 PR 裡說明修改理由，必要時附權威詞典連結。
 
-## 代码
+## 程式碼
 
-- TypeScript 严格模式，React 函数组件，不引入状态管理或 UI 框架依赖。
-- 保持“无账号、本地优先、无追踪”的方向。
-- 视觉改动请同时检查浅色、深色和 375px 手机宽度。
-- 提交前运行 `npm test`、`npm run check:atlas`、`npm run build`。
+- TypeScript 嚴格模式，React 函式元件，不引入狀態管理或 UI 框架依賴。
+- 保持“無賬號、本地優先、無追蹤”的方向。
+- 視覺改動請同時檢查淺色、深色和 375px 手機寬度。
+- 提交前執行 `npm test`、`npm run check:atlas`、`npm run build`。
 
 ## 新素材
 
-新增图片、录音或文本时，请写明来源与授权，只接受可以按 CC BY 4.0 再分发的内容。
+新增圖片、錄音或文本時，請寫明來源與授權，只接受可以按 CC BY 4.0 再分發的內容。
 
 ## 安全
 
-不要在 Issue、PR、截图或日志中粘贴任何 API key。生成脚本只从环境变量或仓库外的文件读取凭据，见 [SECURITY.md](SECURITY.md)。
+不要在 Issue、PR、截圖或日誌中貼上任何 API key。生成指令碼只從環境變數或倉庫外的檔案讀取憑據，見 [SECURITY.md](SECURITY.md)。
